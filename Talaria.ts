@@ -4,7 +4,7 @@
     
     Automates handling FormData
 */
-import { FormObject } from './interfaces';
+import { FormObject } from './Interfaces';
 
 export class Talaria extends XMLHttpRequest {
     formData: FormData | null = null;
