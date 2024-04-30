@@ -4,7 +4,7 @@ A lightweight XMLHTTPRequest Wrapper
 
 This is a lightweight wrapper that allows people to easily make GET and POST request Asynchronously and Synchronously.
 
-#Synchronous GET example
+# Synchronous GET example
 ```javascript
   //Create a new XMLHttpRequest object that has Talaria wrapped around it
   let request = new Talaria('/users', 'GET', false); // Run Talaria Synchronously
@@ -12,7 +12,7 @@ This is a lightweight wrapper that allows people to easily make GET and POST req
   console.log(request.responseText);
 ```
 
-#Synchronous POST example
+# Synchronous POST example
 ```javascript
   //Create a new XMLHttpRequest object that has Talaria wrapped around it
   let request = new Talaria('/user', 'POST'); // Run Talaria Synchronously, 3rd arg defaults to true
@@ -25,7 +25,7 @@ This is a lightweight wrapper that allows people to easily make GET and POST req
   console.log(request.responseText);
 ```
 
-#Asynchronous POST example
+# Asynchronous POST example
 ```javascript
   //Create a new XMLHttpRequest object that has Talaria wrapped around it
   let request = new Talaria('/user', 'POST'); // Run Talaria Asynchronously, 3rd arg defaults to true
